@@ -6,6 +6,16 @@ using namespace std;
 int main()
 {
      // Ввід змінних
+     float R;
+     float r;
+     float h;
+     const float pi=3.14159;
+     printf ("Введіть внутрішній радіус основи циліндра: ");
+     scanf("%f",&R);
+     printf ("Введіть внутрішній радіус основи циліндра: ");
+     scanf ("%f",&r);
+     printf ("Введіть висоту циліндра: ");
+     scanf("%f",&h);
      // Функції
      // Вибір операції
       int Ss, S, V, Q;
