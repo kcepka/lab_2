@@ -17,6 +17,9 @@ int main()
      printf ("Введіть висоту циліндра: ");
      scanf("%f",&h);
      // Функції
+     float F1=2*pi*h*(R+r);
+     float F2=2*pi*R*(R+r+h);
+     float F3=pi*h*(pow(R,2)-pow(r,2));
      // Вибір операції
       int Ss, S, V, Q;
       char choice;
